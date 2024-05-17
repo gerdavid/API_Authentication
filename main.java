@@ -10,9 +10,9 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class JsonToCsv {
-    private static final String API_ENDPOINT = "test.hiskenya.org/api/analytics.json?dimension=dx%3AotgQMOXuyIn%3BM4Rzp)ew1Im%3ByQFyy
+    private static final String API_ENDPOINT = "http://test.hiskenya.org/api/analytics.json?dimension=dx%3AotgQMOXuyIn%3BM4Rzp)ew1Im%3ByQFyy
     QBhXQf&dimension=pe%3A202301%3B202302%3B202303%3B202303%3B202304%3B202305%3B202306%3B202307%3B202308%3B202309%3B202310%3B2023012
-    &tabletLayout=true&columns=dx&rows=pe&skiRounding=false&completeOnly=false&filter=ou%3AUSER_ORGUNIT"; // Replace with the actual API endpoint
+    &tabletLayout=true&columns=dx&rows=pe&skiRounding=false&completeOnly=false&filter=ou%3AUSER_ORGUNIT";
     private static final String USERNAME = "programmingtest";
     private static final String PASSWORD = "Kenya@2040";
     private static final String OUTPUT_FILE = "data.csv";
